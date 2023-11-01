@@ -64,11 +64,6 @@ class OddballParticle extends Particle//inherits from Particle
     mySpeed = (Math.random()*4)+.5;
   
   }
-  void move()
-  {
-    myX = myX + cos((float)myAngle)*mySpeed;
-    myY = myY + sin((float)myAngle)*mySpeed;
-  }
   void show()
   {
     fill(myC);
